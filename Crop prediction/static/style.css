@@ -1,0 +1,252 @@
+@media (max-width: 991px) {
+    .navbar-scroll {
+      background-color: #fff;
+    }
+    .navbar-scroll .navbar-brand,
+    .navbar-scroll .nav-link,
+    .navbar-scroll .fa-bars {
+      color: #4f4f4f !important;
+    }         
+}
+body { font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+h2 { font-size: 1.2em; }
+table.dataframe, .dataframe th, .dataframe td {
+  border: none;
+  /* border-bottom: 1px solid #C8C8C8; */
+  border-collapse: collapse;
+  text-align:left;
+  padding: 10px;
+  margin-bottom: 40px;
+  font-size: 0.9em;
+}
+.male th {
+    background-color: #add8e6;
+    color: white;
+}
+table  {
+    background-color: #77dd77;
+    color: white;
+}
+tr:nth-child(odd)		{ background-color:#eee; }
+tr:nth-child(even)	{ background-color:#fff; }
+tr:hover            { background-color: #ffff99;}
+  .navbar-brand {
+    letter-spacing: 3px;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .navbar-scroll .navbar-brand,
+  .navbar-scroll .nav-link,
+  .navbar-scroll .fa-bars {
+    color: #fff;
+  }
+  .navbar-scroll {
+    box-shadow: none;
+  }
+  .navbar-scrolled {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+  }
+  .navbar-scrolled .navbar-brand,
+  .navbar-scrolled .nav-link,
+  .navbar-scrolled .fa-bars {
+    color: #4f4f4f;
+  }
+  .navbar-scrolled {
+    background-color: #fff;
+  }
+  @media (max-width: 450px) {
+    #intro {
+      height: 950px !important;
+    }
+  }
+  @media (min-width: 550px) and (max-width: 750px) {
+    #intro {
+      height: 1100px !important;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 990px) {
+    #intro {
+      height: 600px !important;
+    }
+  }
+  .display-1 {
+    font-weight: 500 !important;
+    letter-spacing: 40px;
+  }
+  @media (min-width: 1600px) {
+    .display-1 {
+      font-size: 10rem;
+    }
+  }
+* {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    /* background-color: lightblue; */
+    /* background-image: url(https://cdn.pixabay.com/photo/2015/11/07/09/15/sunrise-1030593_960_720.jpg); */
+    background-image : url(http://www.yourwebsite.com/mypics/bgimage.jpg);
+    background-size: cover;
+}
+form {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    margin-inline-start: -1182px;
+    font-size: 307%;
+    color: chocolate;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button {
+    font-weight: bold;
+    background-color: #4CAF50;
+    padding: 8px 16px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius:3px;
+    color: black;
+    border-color: black;
+    font-family: Arial;
+    border-style: ridge;
+}
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box
+}
+.para {
+    text-align:center;
+}
+.result {
+    font-weight: bold;
+    background-color: #4CAF50;
+    padding: 8px 16px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius:3px;
+    color: black;
+    border-color: black;
+    font-family: Arial;
+    border-style: ridge;
+}
+.Note {
+    text-align: center;
+    color: #eba0a0;
+    margin: 7px;
+    padding: 7px 0px;
+}
+.pred {
+    text-align:center;
+}
+.intro {
+    font-size: 20px;
+}
+div.container {
+    background-color: rgba(0,0,0,0.5);
+    font-size: 18px;
+    margin: 1%;
+    border-radius: 10px;
+    border: 1px soid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px
+}
+div.page {
+    width: 400px;
+    margin: 0px auto 0px auto;
+}
+form.info {
+    margin-inline-start:  15px;
+}
+input#name {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: insert 1px 1px 5px rgba(0,0,0,0.3);
+}
+input#age {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: insert 1px 1px 5px rgba(0,0,0,0.3);
+}
+input#rooms {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: insert 1px 1px 5px rgba(0,0,0,0.3);
+}
+input#bedrooms {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: insert 1px 1px 5px rgba(0,0,0,0.3);
+}
+input#population {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: insert 1px 1px 5px rgba(0,0,0,0.3);
+}
+a.link {
+    font-weight: bold;
+    background-color: orange;
+    padding: 8px 16px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius:3px;
+    color: black;
+    border-color: black;
+    border-style: ridge; 
+}
+#menu-outer {
+    height: 0px;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 18px;
+    margin: 1%;
+    border-radius: 10px;
+    border: 1px soid rgba(255,255,255,0.3);
+}
+.table {
+    display: table;   
+    margin: 0 auto;
+    margin-left: 33.85%;
+}
+ul#horizontal-list {
+    min-width: 696px;
+    list-style: none;
+}
+a.link {
+    margin-right: 20px;
+    margin-left: 115px;
+}
+a.scikit {
+    margin-left: 65px;
+}
+ul#horizontal-list li {
+    display: inline;
+}
+div.title img {
+    display:inline-block;
+    vertical-align:middle;
+}        
+div.title h1 {
+    display:inline-flex;
+    vertical-align:middle;
+    padding-left: 24%;
+    font-family: "Copperplate Gothic Light";
+    color: brown;
+}
